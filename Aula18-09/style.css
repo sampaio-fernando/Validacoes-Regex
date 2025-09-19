@@ -1,0 +1,59 @@
+body{
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    /* background-color: #21262D; */
+    background: linear-gradient(to right, #21262D, #2d3848);  
+    color: rgb(212, 212, 212);
+}
+
+button{
+    width: 100%;
+    margin-top: 8px;
+    border-radius: 8px;
+    padding: 7px;
+    background: rgb(40, 95, 172);
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(48, 112, 202);
+}
+
+h1{
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    margin: 20px 0 5px 0;
+    font-size: bold;
+}
+
+input{
+    width: 300px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    background: rgb(236, 235, 235);
+}
+
+.valido{
+    border-color: green;
+    background-color: #fff0f0;
+}
+
+.invalido{
+    border-color: red;
+    background-color: #fff0f0;
+}
+
+div{
+    margin-top: 5px;
+    font-size: 14px;
+}
