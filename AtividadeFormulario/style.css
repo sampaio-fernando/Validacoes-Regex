@@ -1,0 +1,29 @@
+*{
+    border: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    background: #0d1117;
+    color: rgb(213, 211, 211);
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background: rgb(127, 124, 124);
+    border-radius: 8px;
+}
+
+/* .form-content{
+    margin: 15px 0;
+} */
+
+input{
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+}
